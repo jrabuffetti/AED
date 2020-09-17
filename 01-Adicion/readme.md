@@ -1,9 +1,31 @@
-- Resolución de Problemas — Adición
+Resolución de Problemas — Adición
 
+Etapa #1: Análisis del problema:
 
 Transcripción del problema:
 
-El programa pide al usuario que ingrese dos numeros enteros y luego este va a mostrar la suma resultante en pantalla
+-El programa pide al usuario que ingrese dos numeros enteros y luego este va a mostrar la suma resultante en pantalla
+
+Refinamiento del problema e Hipótesis de trabajo:
+
+-
+
+Modelo IPO:
+
+-
+
+Etapa #2 Diseño de la Solución
+
+Léxico del Algoritmo
+
+-
+
+Representación del Algoritmo
+
+-Representación visual.
+
+-Representación textual
+
 
 
 Para eso creamos dos variables tipo INT, a las que vamos a llamar num1 y num2. Se le va a pedir al usuario que ingrese el entero de la primer variable (num1) y luego va a repetir este proceso para la segunda variable (num2).
