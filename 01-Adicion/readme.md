@@ -1,26 +1,27 @@
-Resolución de Problemas — Adición
 
-Etapa #1: Análisis del problema:
+# Resolución de Problemas — Adición
 
-Transcripción del problema:
+## Etapa #1: Análisis del problema:
+
+### Transcripción del problema:
 
 - Pedir dos numeros y mostrar la suma
 
-Refinamiento del problema e Hipótesis de trabajo:
+### Refinamiento del problema e Hipótesis de trabajo:
 
 - El programa pide al usuario que ingrese dos numeros enteros y luego este va a mostrar la suma resultante en pantalla
 
-Modelo IPO:
+### Modelo IPO:
 
 - Z X Z --> Adición --> Z
 
-Etapa #2 Diseño de la Solución
+## Etapa #2 Diseño de la Solución
 
-Léxico del Algoritmo
+### Léxico del Algoritmo
 
 - a,b ∈ Z
 
-Representación del Algoritmo
+### Representación del Algoritmo
 
 ```
 #include <iostream>
@@ -36,11 +37,11 @@ int main()
 }
 ```
 
--Representación visual.
+### -Representación visual.
 
 ![Diagrama de flujos](https://cdn.discordapp.com/attachments/683848110006730753/756149595960115290/unknown.png)
 
--Representación textual
+### -Representación textual
 
 1: Mostrar "ingrese el primer numero:".
 
