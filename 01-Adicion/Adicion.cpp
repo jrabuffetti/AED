@@ -8,6 +8,4 @@ int main()
 	std::cout << "Ingrese el segundo numero:\n";
 	std::cin >> num2;
 	std::cout << "La suma de los dos numeros es: " << num1 + num2;
-
-	return 0;
 }
