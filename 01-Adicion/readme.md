@@ -4,31 +4,52 @@ Etapa #1: Análisis del problema:
 
 Transcripción del problema:
 
--El programa pide al usuario que ingrese dos numeros enteros y luego este va a mostrar la suma resultante en pantalla
+- Pedir dos numeros y mostrar la suma
 
 Refinamiento del problema e Hipótesis de trabajo:
 
--
+- El programa pide al usuario que ingrese dos numeros enteros y luego este va a mostrar la suma resultante en pantalla
 
 Modelo IPO:
 
--
+- Z X Z --> Adición --> Z
 
 Etapa #2 Diseño de la Solución
 
 Léxico del Algoritmo
 
--
+- a,b ∈ Z
 
 Representación del Algoritmo
 
+```
+#include <iostream>
+
+int main()
+{
+	int num1, num2;
+	std::cout << "Ingrese el primer numero:\n";
+	std::cin >> num1;
+	std::cout << "Ingrese el segundo numero:\n";
+	std::cin >> num2;
+	std::cout << "La suma de los dos numeros es: " << num1 + num2;
+}
+```
+
 -Representación visual.
+
+![Diagrama de flujos](https://cdn.discordapp.com/attachments/683848110006730753/756149595960115290/unknown.png)
 
 -Representación textual
 
+1: Mostrar "ingrese el primer numero:".
 
+2: Leer un entero y almacenarlo en num1.
 
-Para eso creamos dos variables tipo INT, a las que vamos a llamar num1 y num2. Se le va a pedir al usuario que ingrese el entero de la primer variable (num1) y luego va a repetir este proceso para la segunda variable (num2).
+3: Mostrar "ingrese el segundo numero:".
 
+4: Leer un entero y almacenarlo en num2.6
 
-Luego se va a realizar una suma de las dos variables, mostrando en la pantalla el numero resultante a esa suma, terminando asi el programa.
+5: Mostrar "la suma de los dos numeros es:"
+
+6: Mostrar suma de num1 y num2
